@@ -1,8 +1,10 @@
-module github.com/nedpals/supabase-go
+module github.com/biztos/supabase-go
 
-go 1.16
+go 1.21.1
+
+toolchain go1.22.3
 
 require (
 	github.com/google/go-querystring v1.1.0
-	github.com/nedpals/postgrest-go v0.1.3
+	github.com/supabase-community/postgrest-go v0.0.11
 )
